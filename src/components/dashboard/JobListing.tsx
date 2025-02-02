@@ -1,3 +1,4 @@
+import { Pencil, Trash } from 'lucide-react'
 import React from 'react'
 
 const JobListing = () => {
@@ -23,10 +24,10 @@ const JobListing = () => {
             <td className="px-6 py-4 text-sm">
                 <div className="flex space-x-2">
                     <button className="text-blue-600">
-                        <span className="material-icons text-sm">edit</span>
+                        <span className="material-icons text-sm"><Pencil /></span>
                     </button>
                     <button className="text-red-600">
-                        <span className="material-icons text-sm">delete</span>
+                        <span className="material-icons text-sm"><Trash /></span>
                     </button>
                 </div>
             </td>

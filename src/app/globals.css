@@ -43,7 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-input {
+input, input:focus-visible, input:focus {
   outline: none;
 }
 

@@ -1,6 +1,9 @@
 import React from "react";
 import Application from "./Application";
 import JobListing from "./JobListing";
+import { Bookmark, Eye, Plus } from "lucide-react";
+import { BsPeopleFill } from "react-icons/bs";
+import { MdWork } from "react-icons/md";
 
 const Dashboard = () => {
   return (
@@ -22,7 +25,7 @@ const Dashboard = () => {
           <div className="border border-neutral-200/20 rounded-lg p-6 bg-blue-50">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold text-gray-900">Active Jobs</h3>
-              <span className="material-icons text-blue-600">work</span>
+              <span className="material-icons text-blue-600"><MdWork /></span>
             </div>
             <p className="text-3xl font-bold text-blue-600">12</p>
             <p className="text-sm text-gray-600 mt-2">+2 from last month</p>
@@ -34,7 +37,7 @@ const Dashboard = () => {
               <h3 className="text-lg font-semibold text-gray-900">
                 Total Applications
               </h3>
-              <span className="material-icons text-green-600">people</span>
+              <span className="material-icons text-green-600"><BsPeopleFill /></span>
             </div>
             <p className="text-3xl font-bold text-green-600">48</p>
             <p className="text-sm text-gray-600 mt-2">+15 new this week</p>
@@ -44,7 +47,7 @@ const Dashboard = () => {
           <div className="border border-neutral-200/20 rounded-lg p-6 bg-purple-50">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold text-gray-900">Views</h3>
-              <span className="material-icons text-purple-600">visibility</span>
+              <span className="material-icons text-purple-600"><Eye /></span>
             </div>
             <p className="text-3xl font-bold text-purple-600">1,254</p>
             <p className="text-sm text-gray-600 mt-2">+324 this month</p>
@@ -54,7 +57,7 @@ const Dashboard = () => {
           <div className="border border-neutral-200/20 rounded-lg p-6 bg-orange-50">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold text-gray-900">Saved</h3>
-              <span className="material-icons text-orange-600">bookmark</span>
+              <span className="material-icons text-orange-600"><Bookmark /></span>
             </div>
             <p className="text-3xl font-bold text-orange-600">85</p>
             <p className="text-sm text-gray-600 mt-2">+12 this week</p>
@@ -71,7 +74,7 @@ const Dashboard = () => {
               href="#postJob"
               className="px-4 py-2 bg-blue-600 text-white rounded-lg flex items-center"
             >
-              <span className="material-icons text-sm mr-2">add</span>
+              <span className="material-icons text-sm mr-2"><Plus /></span>
               Post New Job
             </a>
           </div>
