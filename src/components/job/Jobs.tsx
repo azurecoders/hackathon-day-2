@@ -4,7 +4,7 @@ import Filter from './Filter';
 
 const Jobs = () => {
     return (
-        <section id="jobs" className="p-6 bg-white">
+        <section id="jobs" className="p-6 pt-16 bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Hero Section */}
                 <div className="mb-8">

@@ -1,10 +1,13 @@
 import Applications from '@/components/applications/Applications'
+import CommonLayout from '@/components/CommonLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Applications />
+      <CommonLayout>
+        <Applications />
+      </CommonLayout>
     </div>
   )
 }

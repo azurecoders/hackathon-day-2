@@ -29,7 +29,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/"
+              href="/job/find"
               className="text-text hover:text-shadows/90 duration-300 transition-all"
             >
               Find Job

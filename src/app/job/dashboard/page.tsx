@@ -1,10 +1,13 @@
 import Dashboard from '@/components/dashboard/Dashboard'
+import CommonLayout from '@/components/CommonLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Dashboard />
+      <CommonLayout>
+        <Dashboard />
+      </CommonLayout>
     </div>
   )
 }

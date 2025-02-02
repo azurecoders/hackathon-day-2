@@ -1,10 +1,13 @@
 import Jobs from '@/components/job/Jobs'
+import CommonLayout from '@/components/CommonLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Jobs />
+      <CommonLayout>
+        <Jobs />
+      </CommonLayout>
     </div>
   )
 }

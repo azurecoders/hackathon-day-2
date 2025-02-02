@@ -6,7 +6,7 @@ import ApplicationItem from './ApplicationItem';
 
 const Applications = () => {
     return (
-        <section id="applications" className="p-6 bg-white">
+        <section id="applications" className="p-6 pt-16 bg-white">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-8">
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">My Applications</h1>

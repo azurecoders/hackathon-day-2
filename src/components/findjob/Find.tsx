@@ -1,10 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { FaLocationDot } from "react-icons/fa6";
-import { IoSearch } from "react-icons/io5";
-import Filter from "./Filter";
-import JobCard from "./JobCard";
-import SearchResuts from "./SearchResults";
+import React from "react";
 import SearchResults from "./SearchResults";
 import SearchBar from "./SearchBar";
 import JobDetails from "./JobDetails";
@@ -13,7 +8,7 @@ const Find = () => {
   return (
     <section
       id="search"
-      className={`p-6 bg-white transition-opacity duration-1000 ease-in-out`}
+      className={`p-6 pt-16 bg-white transition-opacity duration-1000 ease-in-out`}
     >
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">

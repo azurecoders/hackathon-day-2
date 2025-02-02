@@ -1,10 +1,10 @@
 import React, { ReactNode } from 'react'
-import SideBar from './SideBar'
+import JobNavBar from './JobNavBar'
 
 const layout = ({ children }: { children: ReactNode }) => {
     return (
         <div>
-            <SideBar />
+            <JobNavBar />
             <div>
                 {children}
             </div>

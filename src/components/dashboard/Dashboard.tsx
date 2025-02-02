@@ -7,7 +7,7 @@ import { MdWork } from "react-icons/md";
 
 const Dashboard = () => {
   return (
-    <section id="Dashboard" className="p-6 bg-white">
+    <section id="Dashboard" className="p-6 pt-16 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Dashboard Header */}
         <div className="mb-8">
