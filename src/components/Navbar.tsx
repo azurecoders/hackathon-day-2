@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed w-full bg-background border-b border-[#ccc]/10 text-text">
+    <header className="bg-background border-b border-[#0000002a] text-text">
       <nav className="max-w-7xl mx-auto flex items-center justify-between p-4 h-[8vh]">
         {/* Logo and Desktop Links */}
         <div className="flex items-center gap-12">
